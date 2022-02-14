@@ -7,4 +7,6 @@ var Kagent = mongoose.model('Kagent', {
     sVolume: { type: Number }
 });
 
-module.exports = Kagent;
+module.exports = {
+    Kagent
+};
